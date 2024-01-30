@@ -1,0 +1,45 @@
+// style.scss
+
+// Accordion component styles
+.accordion {
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    .content {
+      padding: 15px;
+    }
+
+    .p {
+      margin-top: 10px;
+    }
+
+    // Customize the accordion header
+    .accordion-header {
+      background-color: #f0f0f0;
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      // Style the badge
+      .badge {
+        position: relative;
+        top: -5px;
+        margin-left: 10px;
+      }
+    }
+
+    // Accordion body
+    .accordion-body {
+      padding: 15px;
+    }
+  }
+}
+
+.table-row:hover {
+  background-color: #aa6060;  /* Change the background color on hover */
+  cursor: pointer;           /* Change the cursor to a pointer on hover */
+}
